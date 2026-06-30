@@ -23,6 +23,7 @@ def load_data():
                 "https://drive.google.com/uc?id=1gXuq7Qqkpvm8vq4COp44iPrCtoxEGmJo",
                 "similarity.pkl",
                 quiet=False
+                fuzzy=True
             )
 
     similarity = pickle.load(open('similarity.pkl', 'rb'))
