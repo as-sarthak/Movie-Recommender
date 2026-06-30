@@ -22,7 +22,7 @@ def load_data():
             gdown.download(
                 "https://drive.google.com/uc?id=1gXuq7Qqkpvm8vq4COp44iPrCtoxEGmJo",
                 "similarity.pkl",
-                quiet=False
+                quiet=False,
                 fuzzy=True
             )
 
